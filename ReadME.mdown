@@ -3,7 +3,7 @@ Koder
 
 Koder helps you write, and test and optionally compile Scriptmaster functions.  If you don't use FileMaker or ScriptMaster, you will not care about this :-)
 
-Its currently very rough. And without docs. So it will probably mostly baffle users. Hopefully that will cahnge soon.
+Its currently very rough. And without much in the way of documentaion. 
 
 This tool has a couple of goals
 
@@ -15,3 +15,34 @@ Some of the key features that help move us toward those goals.
 * allows you to use the editor/debugger/IDE of your choice
 * keeps all code in text files, not in database.
 * built in support for Registering functions, compiling plugins or using raw groovy
+
+#How to Use
+
+
+You need to setup your projects with a standard structure.  If you have a project called "Project" you should put two folders in that Folder. Name one "src" and the other "jars".  Like so:
+
+Project  
+	/src  
+	/jars
+
+Koder loads all the Jar file it finds in the "jars" folder and it scans the "src" directory for groovy files.  When you open Koder you will be able to choose the "Projects" folder.  This will load everything in.
+
+You then use the IDE of your choice to create your ScriptMaster functions.  Each function should get its own file.
+
+##Special Annotations
+
+Koder looks for doc block annotations to tell instruct it on how to name the scriptmaster functions
+
+
+###@FileMakerFunctionName  FunctionName  
+specifies the name of the function. Koder also applies an optional prefix to all functions in the same project. Do not include the prefix here.
+
+###@param paramName
+The name of a parameter. You can include more then one  
+
+###@FileMakerIsGui True
+Scriptmaster has an optional flag that you should set to true if your Function displays any Java UI. This is optional if you don't use include it, it defaults to false
+
+###@FileMakerDoNotBuild
+This a convenience flag that tells Koder to leave this function out of the plugin build or the Single Function Register. This useful if you the function is not yet ready to be released, or if it is just a testing function.
+
