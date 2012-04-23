@@ -31,7 +31,7 @@ You then use the IDE of your choice to create your ScriptMaster functions.  Each
 
 ##Special Annotations
 
-Koder looks for doc block annotations to tell it how to name the scriptmaster functions and what params you want with the function.  There are also a couple of other tags you can use to set a coupl mof other options.
+Koder looks for doc block annotations to tell it how to name the scriptmaster functions and what params you want with the function.  There are also a couple of other tags you can use to set a couple of other options.
 
 
 ###@FileMakerFunctionName  FunctionName  
