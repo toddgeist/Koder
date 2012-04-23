@@ -48,8 +48,8 @@ This a convenience flag that tells Koder to leave this function out of the plugi
 
 ##Other Useful Comment Blocks
 
-##/*----[ above this line is ignored by FileMaker
+###/*----[ above this line is ignored by FileMaker
 Any code placed ABOVE this line will not be executed by FileMaker.  This is very useful when you are working in your IDE, and you need to setup the some variables or objects for debugging in your IDE. When you go back to Koder, anything above this line is ignored
 
-##/*----[ beloe this line is ignored by FileMaker
+###/*----[ beloe this line is ignored by FileMaker
 Any code placed BELOW this line will not be executed by FileMaker. This useful if you want to println or print out vars in your IDE, but not in FileMaker. Again very useful for Debugging in your IDE.
