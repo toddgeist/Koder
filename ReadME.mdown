@@ -46,3 +46,10 @@ Scriptmaster has an optional flag that you should set to true if your Function d
 ###@FileMakerDoNotBuild
 This a convenience flag that tells Koder to leave this function out of the plugin build or the Single Function Register. This useful if you the function is not yet ready to be released, or if it is just a testing function.
 
+##Other Useful Comment Blocks
+
+##/*----[ above this line is ignored by FileMaker
+Any code placed ABOVE this line will not be executed by FileMaker.  This is very useful when you are working in your IDE, and you need to setup the some variables or objects for debugging in your IDE. When you go back to Koder, anything above this line is ignored
+
+##/*----[ beloe this line is ignored by FileMaker
+Any code placed BELOW this line will not be executed by FileMaker. This useful if you want to println or print out vars in your IDE, but not in FileMaker. Again very useful for Debugging in your IDE.
