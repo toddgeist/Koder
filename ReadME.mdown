@@ -16,7 +16,7 @@ Some of the key features that help move us toward those goals.
 * keeps all code in text files, not in database.
 * built in support for Registering functions, compiling plugins or using raw groovy
 
-#How to Use
+##How to Use
 
 
 You need to setup your projects with a standard structure.  If you have a project called "Project" you should put two folders in that Folder. Name one "src" and the other "jars".  Like so:
