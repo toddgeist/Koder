@@ -3,7 +3,9 @@ Koder
 
 Koder helps you write, and test and optionally compile Scriptmaster functions.  If you don't use FileMaker or ScriptMaster, you will not care about this :-)
 
-Koder requires "ScriptMaster" from 360works, http://www.360works.com/scriptmaster/. It also requires FileMaker 11 or FileMaker 12.  Currently ony the 11 file format is available.  You can convert it and it should work just fin.
+Koder requires "ScriptMaster" from 360works, http://www.360works.com/scriptmaster/. It also requires FileMaker 11 or FileMaker 12.  Currently ony the 11 file format is available.  You can convert it and it should work just fine.
+
+Rather longish very rough video, http://blip.tv/geist-interactive-tv/koder-1-6106459
 
 Its currently very rough. And without much in the way of documentaion. 
 
@@ -20,12 +22,13 @@ Some of the key features that help move us toward those goals.
 
 ##How to Use
 
-
 You need to setup your projects with a standard structure.  If you have a project called "Project" you should put two folders in that Folder. Name one "src" and the other "jars".  Like so:
 
 /Project  
 /Project/src  
 /Project/jars
+
+Once you have this setup, launch Koder.fp7, and use the Choose Project Folder to select the "Project" folder.  This "Points" Koder at your project.
 
 Koder loads all the Jar file it finds in the "jars" folder and it scans the "src" directory for groovy files.  When you open Koder you will be able to choose the "Projects" folder.  This will load everything in.
 
