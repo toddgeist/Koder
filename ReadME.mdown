@@ -3,7 +3,7 @@ Koder
 
 Koder helps you write, and test and optionally compile Scriptmaster functions.  If you don't use FileMaker or ScriptMaster, you will not care about this :-)
 
-Koder requires "ScriptMaster" from 360works, http://www.360works.com/scriptmaster/. It also requires FileMaker 11 or FileMaker 12.  Currently ony the 11 file format is available.  You can convert it and it should work just fun
+Koder requires "ScriptMaster" from 360works, http://www.360works.com/scriptmaster/. It also requires FileMaker 11 or FileMaker 12.  Currently ony the 11 file format is available.  You can convert it and it should work just fin.
 
 Its currently very rough. And without much in the way of documentaion. 
 
