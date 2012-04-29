@@ -20,43 +20,5 @@ Some of the key features that help move us toward those goals.
 * keeps all code in text files, not in database.
 * built in support for Registering functions, compiling plugins or using raw groovy
 
-##How to Use
-
-You need to setup your projects with a standard structure.  If you have a project called "Project" you should put two folders in that Folder. Name one "src" and the other "jars".  Like so:
-
-/Project  
-/Project/src  
-/Project/jars
-
-Once you have this setup, launch Koder.fp7, and use the Choose Project Folder to select the "Project" folder.  This "Points" Koder at your project.
-
-Koder loads all the Jar file it finds in the "jars" folder and it scans the "src" directory for groovy files.  When you open Koder you will be able to choose the "Projects" folder.  This will load everything in.
-
-You then use the IDE of your choice to create your ScriptMaster functions.  Each function should get its own file.
-
-##Special Annotations
-
-Koder looks for doc block annotations to tell it how to name the scriptmaster functions and what params you want with the function.  There are also a couple of other tags you can use to set a couple of other options.
-
-
-###@FileMakerFunctionName  FunctionName  
-specifies the name of the function. Koder also applies an optional prefix to all functions in the same project. Do not include the prefix here.
-
-###@param paramName
-The name of a parameter. You can include more then one  
-
-###@FileMakerIsGui True
-Scriptmaster has an optional flag that you should set to true if your Function displays any Java UI. This is optional if you don't use include it, it defaults to false
-
-###@FileMakerDoNotBuild
-This a convenience flag that tells Koder to leave this function out of the plugin build or the Single Function Register. This useful if you the function is not yet ready to be released, or if it is just a testing function.
-
-##Other Useful Comment Blocks
-
-###Above the line
-`/*----[ above this line is ignored by FileMaker ]----*/`  
-Any code placed ABOVE this line will not be executed by FileMaker.  This is very useful when you are working in your IDE, and you need to setup the some variables or objects for debugging in your IDE. When you go back to Koder, anything above this line is ignored
-
-###Below the line
-`/*----[ below this line is ignored by FileMaker ]----*/`  
-Any code placed BELOW this line will not be executed by FileMaker. This useful if you want to println or print out vars in your IDE, but not in FileMaker. Again very useful for Debugging in your IDE.
+See the Wiki for Documentation  
+https://github.com/toddgeist/Koder/wiki
