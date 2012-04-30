@@ -1,0 +1,1 @@
+Used by Koder. Do not link to your IDE as a Library
