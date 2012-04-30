@@ -9,16 +9,25 @@ Rather longish very rough video, http://blip.tv/geist-interactive-tv/koder-1-610
 
 Its currently very rough. And without much in the way of documentaion. 
 
-This tool has a couple of goals
+###This tool has a couple of goals:
 
 1. Reduce the write, debug, test cycle time for writing ScriptMaster Functions
 2. Make it easier for developers to share ScriptMaster functions
 
-Some of the key features that help move us toward those goals.
+###It also has some strong opinions.
+
+ScriptMaster executes Groovy not Java. We think this is A VERY GOOD THING. Therefor Koder is focused on using the Groovy way. While you can of course use Java within Koder/Groovy projects, Koder will allways favor Groovy.
+
+For more info on Groovy and how it relates to Java see the [Groovy Web Site](http://groovy.codehaus.org/)
+
+###Key Features
 
 * allows you to use the editor/debugger/IDE of your choice
 * keeps all code in text files, not in database.
-* built in support for Registering functions, compiling plugins or using raw groovy
+* Built in class compile allows for code re-use without maintaining a second project
+* built in support for Registering functions, compiling plugins or using raw groovy.
 
+
+###Documentation
 See the Wiki for Documentation  
 https://github.com/toddgeist/Koder/wiki
