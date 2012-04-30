@@ -19,8 +19,8 @@ For more info on Groovy and how it relates to Java see the [Groovy Web Site](htt
 ###Key Features
 
 * allows you to use the editor/debugger/IDE of your choice
-* keeps all code in text files, not in database.
-* Built in class compile allows for code re-use without maintaining a second project
+* keeps all code in text files, not in a database.
+* Built in [class compiler](https://github.com/toddgeist/Koder/wiki/Class-Compiler) allows for code re-use without maintaining a second project
 * built in support for Registering functions, compiling plugins or using raw groovy.
 
 
