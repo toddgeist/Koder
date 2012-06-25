@@ -12,7 +12,7 @@ Koder requires "ScriptMaster" from 360works, http://www.360works.com/scriptmaste
 
 ###It also has some strong opinions.
 
-ScriptMaster executes Groovy not Java. We think this is A VERY GOOD THING. Therefor Koder is focused on using the Groovy way. While you can of course use Java within Koder/Groovy projects, Koder will allways favor Groovy.
+ScriptMaster executes Groovy not Java. But if you are like us, and you learned Groovy first, you probably think this is A VERY GOOD THING. Therefor Koder is focused on using the Groovy way. While you can of course use Java within Koder/Groovy projects, Koder will allways favor Groovy.
 
 For more info on Groovy and how it relates to Java see the [Groovy Web Site](http://groovy.codehaus.org/)
 
